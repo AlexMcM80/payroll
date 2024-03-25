@@ -4,6 +4,7 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
 // Collect employee data
 const collectEmployees = function() {
   employeesArray.push()
+  console.log(employeesArray)
   // TODO: Get user input to create and return an array of employee objects
 }
 
@@ -16,6 +17,7 @@ const displayAverageSalary = function(employeesArray) {
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
   employeesArray[Math.floor(Math.random() * employeesArray.length)];
+  console.log()
   // TODO: Select and display a random employee
 }
 
