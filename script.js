@@ -3,9 +3,10 @@ const addEmployeesBtn = document.querySelector('#add-employees-btn');
 
 // Collect employee data
 const collectEmployees = function() {
-  firstNameCell= prompt("Employee First Name")
-  lastNameCell= prompt('Employee Last Name')
-  salaryCell= prompt('Employee Salary')
+ employeesArray= prompt("Employee First Name")
+ employeesArray= prompt('Employee Last Name')
+ employeesArray= prompt('Employee Salary')
+ console.log(employeesArray)
   // TODO: Get user input to create and return an array of employee objects
 }
 
